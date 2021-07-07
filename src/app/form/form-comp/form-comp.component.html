@@ -1,0 +1,13 @@
+
+<div class = "1way">
+    <input (input) = "update1Way($event)">
+    <button (click) = "onClick1()"> Click here to erase </button> 
+    <h1>{{oneWay}}</h1>
+
+</div>
+<hr>
+<div class = "2way">
+    <input [(ngModel)] = "twoWay" >
+    <button (click) = "onClick2()"> Click here to erase </button>
+    <h1>{{twoWay}}</h1>
+</div>
